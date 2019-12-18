@@ -10,6 +10,8 @@ public class DeptAction {
 	public DeptAction(){
 		System.out.println("DeptAction.DeptAction()");
 	}
+	//
+	Integer i;
 	private Dept dept;
 	@Autowired
 	private IDeptService deptService;
